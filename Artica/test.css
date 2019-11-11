@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin:0;
+}
+.hainut{
+	cursor: pointer;
+	font-size: 25px;
+	color: grey;
+	padding: 0px 10px;
+}
+.active{
+background: black;
+}
+.cacslide{
+	position: relative;
+	height: 900px;
+	overflow: hidden;
+}
+.motslide{
+	position: absolute;
+	transition: 0.4s;
+}
+.motslide.hienlen{
+	opacity: 1;
+	
+}
+.motslide{
+	opacity: 0;
+	
+}
+.bienmatkhiannext{
+	animation: bienmat 1s forwards;
+}
+@-webkit-keyframes bienmat{
+	from{opacity: 1; transform: scale(1);}
+	to{ opacity: 0 ; transform: scale(0.5); }
+}
+.hienrakhiannext{
+	animation:hienra 1s forwards;
+}
+@-webkit-keyframes hienra{
+	from{opacity: 0; transform: scale(1.5);}
+	to{ opacity: 1 ; transform: scale(1); }
+}
+.animation1{
+	animation: a 1s forwards;
+}
+@-webkit-keyframes a{
+	from{opacity: 1; transform: scale(1);}
+	to{ opacity: 0 ; transform: scale(1.5); }
+}
+.animation2{
+	animation: b 1s forwards;
+}
+@-webkit-keyframes b{
+	from{opacity: 0; transform: scale(0.5);}
+	to{ opacity: 1 ; transform: scale(1); }
+}

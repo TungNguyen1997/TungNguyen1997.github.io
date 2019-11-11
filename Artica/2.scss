@@ -1,0 +1,83 @@
+.khoi1{
+	background-image: url(images/slide03.jpg);
+	height: 500px;
+	color: white;
+	background-size: cover;
+	background-position: center;
+
+	.container{
+display: table;
+height: 100%;
+	.text-khoi1{
+		display: table-cell;
+		vertical-align: middle;
+		span{
+			color: #feb518;
+			font-size: 30px;
+		}
+		h3{
+			font-size: 40px;
+		}
+	}
+	}
+
+}
+.khoi2{
+	.text-tieude{
+		margin-top: -40px;
+		margin-bottom: 80px;
+		a{
+			color: white;
+			padding:0px 10px;
+			font-size: 18px;
+			text-decoration: none;
+			&:focus{
+				color: #feb518;
+			}
+
+		}
+	}
+	.noidung{
+		.monan{
+			padding:0px 7px;
+			margin-bottom: 20px;
+			.img-monan{
+				padding-right:7px;
+				position: relative;
+				.tag{
+					position: absolute;
+					background: #feb518;
+					top: 0px;
+					color: white;
+					font-size: 10px;
+					padding:6px 10px;
+				}
+			}
+			.text-monan{
+				padding-left: 7px;
+				b{
+					display: inline-block;
+					font-size: 16px;
+					background: white;
+					transform: translateY(7px);
+				}
+				span{
+					font-size: 14px;
+					background: white;
+					transform: translateY(10px);
+					font-weight: 500;
+				}
+				.duoi{
+					font-size: 14px;
+					color: grey;
+						margin-top: 10px;
+
+				}
+				.tren{
+					border-bottom: 2px dotted grey;
+
+				}
+			}
+		}
+	}
+}

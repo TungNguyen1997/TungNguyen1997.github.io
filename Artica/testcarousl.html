@@ -1,0 +1,143 @@
+
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link  href="assets/owl.carousel.min.css" rel="stylesheet">
+  <link  href="assets/owl.theme.default.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="1.css">
+  <style>
+  /* Make the image fully responsive */
+	.owl-prev{
+		left: -30px;
+	}
+	.owl-next{
+		right: -30px;
+	}
+	.owl-next, .owl-prev{
+		position: absolute;
+		top: 30%;
+	}
+	.owl-next span, .owl-prev span{
+		font-size: 60px;
+		color: #787878;
+	}
+	.owl-theme{
+		width: 400px;
+	}
+	
+  </style>
+</head>
+<body>
+		
+		<div class="ourmenu">
+		<div class="container">
+			<div class="border-menu">
+				<div class="row">
+				<div class="col-sm-5 img-menu">
+					<h3 style="font-family:  'Dancing Script', cursive; font-size: 45px;">Our Delicous Menu</h3>
+					<p>Best offers from the house chef</p>
+					<div class="owl-carousel owl-theme">
+			<div class="ml-2 mr-2" style="background: transparent;">
+				
+					<img src="images/chicken.png" alt="">
+		
+			</div>
+			<div class="ml-2 mr-2" style="background: transparent">
+				<img src="images/chicken.png" alt="">
+			</div>
+			<div class="ml-2 mr-2" style="background: transparent">
+				<img src="images/chicken.png" alt="">
+			</div>
+			<div class="ml-2 mr-2" style="background: transparent">
+			<img src="images/chicken.png" alt="">
+				</div>
+			</div>
+				</div>
+				<div class="col-sm-7 listmenu">
+					<h3 >Our Best Chicken Recipes</h3>
+					<div class="row items-menu">
+						<div class="col-sm-2">
+							<a href=""><img src="images/menu-item1.jpg" alt=""></a>
+						</div>
+
+						<div class="col-sm-10 text-menu">
+							<a href=""><p> Gosh Egg-White Omelet<span class="dots ">................................</span><span class="price">$35.40</span></p></a>
+							
+							<span>Black beans, Home 1, olive oil</span>
+						</div>
+
+					</div>
+					<div class="row items-menu">
+						<div class="col-sm-2">
+							<a href=""><img src="images/menu-item2.jpg" alt=""></a>
+						</div>
+
+						<div class="col-sm-10 text-menu">
+							<a href=""><p> Powered Turkey Meatballs<span class="dots">................................</span><span class="price">$50.00</span></p></a>
+							
+							<span>Black beans, Home 1, olive oil</span>
+						</div>
+						
+					</div>
+					<div class="row items-menu">
+						<div class="col-sm-2">
+							<a href=""><img src="images/menu-item3.jpg" alt=""></a>
+						</div>
+
+						<div class="col-sm-10 text-menu">
+							<a href=""><p> Creamy Feta Salad Dressing<span class="dots">................................</span><span class="price">$85.20</span></p></a>
+						
+							<span>Black beans, Home 1, olive oil</span>
+						</div>
+		
+					</div>
+					<div class="row items-menu">
+						<div class="col-sm-2">
+							<img src="images/menu-item4.jpg" alt="">
+						</div>
+
+						<div class="col-sm-10 text-menu">
+							<a href=""><p> Roasted Red Pepper Hummus<span class="dots">................................</span><span class="price">$50.20</span></p></a>
+							
+							
+							<span>Black beans, Home 1, olive oil</span>
+						</div>
+
+					</div>
+				</div>	
+			</div>
+			</div>
+			
+		</div>
+	</div>
+	
+
+
+
+
+
+
+
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="assets/owl.carousel.min.js"></script>
+  <script>
+  	$('.owl-carousel').owlCarousel({
+  	autoplay:true,
+  	items:1,
+  	nav:true,
+  	dots:false,
+  	loop:true,
+  });
+  </script>
+</body>
+</html>
+
