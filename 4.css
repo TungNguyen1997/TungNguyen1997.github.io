@@ -1,0 +1,38 @@
+.thanhxanh{
+	height: 50px;
+	background: brown;
+	padding-left: 900px;
+}
+.motkhoi{
+	float: left;
+	position: relative;
+}
+.declick i{
+	padding: 17px 15px;
+	cursor: pointer;
+
+}
+.noidung{
+		position: absolute;
+		width: 200px;
+		opacity: 0;
+	visibility: hidden;
+}
+.noidung:after{
+	content: '';
+	width:0;
+	height: 0;
+	border:11px solid transparent;
+	border-bottom-color: white;
+	top: -17px;
+	position: absolute;
+	left: 10px;
+	
+}
+.trang{
+	color: white;
+}
+.hienra{
+	opacity: 1;
+	visibility: visible;
+}

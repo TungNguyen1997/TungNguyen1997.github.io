@@ -1,0 +1,61 @@
+.khoi1 {
+  background-image: url(images/slide03.jpg);
+  height: 500px;
+  color: white;
+  background-size: cover;
+  background-position: center; }
+  .khoi1 .container {
+    display: table;
+    height: 100%; }
+    .khoi1 .container .text-khoi1 {
+      display: table-cell;
+      vertical-align: middle; }
+      .khoi1 .container .text-khoi1 span {
+        color: #feb518;
+        font-size: 30px; }
+      .khoi1 .container .text-khoi1 h3 {
+        font-size: 40px; }
+
+.khoi2 .text-tieude {
+  margin-top: -40px;
+  margin-bottom: 80px; }
+  .khoi2 .text-tieude a {
+    color: white;
+    padding: 0px 10px;
+    font-size: 18px;
+    text-decoration: none; }
+    .khoi2 .text-tieude a:focus {
+      color: #feb518; }
+.khoi2 .noidung .monan {
+  padding: 0px 7px;
+  margin-bottom: 20px; }
+  .khoi2 .noidung .monan .img-monan {
+    padding-right: 7px;
+    position: relative; }
+    .khoi2 .noidung .monan .img-monan .tag {
+      position: absolute;
+      background: #feb518;
+      top: 0px;
+      color: white;
+      font-size: 10px;
+      padding: 6px 10px; }
+  .khoi2 .noidung .monan .text-monan {
+    padding-left: 7px; }
+    .khoi2 .noidung .monan .text-monan b {
+      display: inline-block;
+      font-size: 16px;
+      background: white;
+      transform: translateY(7px); }
+    .khoi2 .noidung .monan .text-monan span {
+      font-size: 14px;
+      background: white;
+      transform: translateY(10px);
+      font-weight: 500; }
+    .khoi2 .noidung .monan .text-monan .duoi {
+      font-size: 14px;
+      color: grey;
+      margin-top: 10px; }
+    .khoi2 .noidung .monan .text-monan .tren {
+      border-bottom: 2px dotted grey; }
+
+/*# sourceMappingURL=2.css.map */
