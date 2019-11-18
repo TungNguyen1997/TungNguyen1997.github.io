@@ -64,7 +64,6 @@ document.addEventListener("DOMContentLoaded",function () {
 			nuthome.classList.remove('hienra');
 		}
 	});
-	console.log(banut);
 	for (var i = 0; i < banut.length; i++) {
 		banut[i].onclick=function(){
 			clearInterval(thoigian);
