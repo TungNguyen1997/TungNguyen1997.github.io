@@ -85,12 +85,11 @@ document.addEventListener("DOMContentLoaded",function () {
 	function autoSlide(){
 		var vitrislide = 0;
 		var slidehientai = document.querySelector('.oneslide.hienlen');
-		console.log(slide.length);
 		
 		for (var vitrislide = 0; slidehientai = slidehientai.previousElementSibling; vitrislide++) {
 
 		}
-		console.log(vitrislide);
+	
 		if(vitrislide == slide.length -1){ 
 			slide[vitrislide].classList.remove('hienlen');
 			slide[0].classList.add('hienlen');
